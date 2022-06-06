@@ -1,0 +1,103 @@
+body {
+    background-color: #E8E8E8;
+}
+
+#visionboard {
+    margin: 50px auto;
+    width: 1200px;
+    height: 850px;
+    margin: auto;
+    background: url('/img/background.png');
+    background-size: cover;
+    overflow: auto;
+    font-family: 'Monserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.block  {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 70px 40px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+
+.dark-bg {
+    background-color: #3B3B3B;   
+}
+
+.dark-bg {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.marker {
+    font-size: 30px;
+    font-family: 'permanent marker', cursive;
+}
+
+.light-bg {
+    background-color: #FFFFFF;
+}
+
+.highlight {
+    background-color: #FFF44F;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+.left p { 
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+.centered-text {
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+strong {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.right p {
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.top-padding {
+    padding-top: 40px;
+}
+
